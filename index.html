@@ -4,7 +4,11 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <div class="description">
+    <center>Hello, my name is Aleksander Grzyb and I am creating iOS applications and solving computer vision problems.</center>
+    <br>
+    <center>Below you can find posts about things that I built or found interesting. You can download my current resume here or contact me directly via email.</center>
+  </div>
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -18,6 +22,6 @@ layout: default
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
 
 </div>

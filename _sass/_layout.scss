@@ -2,8 +2,8 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    padding-top: 20px;
+    padding-bottom: 20px;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -170,6 +170,7 @@
 }
 
 .post-list {
+    padding-top: 20px;
     margin-left: 0;
     list-style: none;
 
@@ -188,6 +189,10 @@
     font-size: 24px;
 }
 
+.description {
+    padding-bottom: 20px;
+    border-bottom: 1px solid $grey-color-light;
+}
 
 
 /**
