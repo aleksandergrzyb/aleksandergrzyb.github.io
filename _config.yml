@@ -1,10 +1,8 @@
 # Site settings
-title: my personal blog
+title: Aleksander Grzyb
 email: aleksander.grzyb@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hello! This is Aleksander's blog.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://aleksandergrzyb.github.io" # the base hostname & protocol for your site
 twitter_username: aleksandergrzyb
@@ -14,6 +12,8 @@ github_username:  aleksandergrzyb
 markdown: kramdown
 
 gems: [jekyll-assets]
+
+exclude: [Rakefile]
 
 assets:
   dirname: assets
