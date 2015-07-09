@@ -20,3 +20,4 @@ assets:
   baseurl: /assets/
   sources:
     - _assets/images
+    - _assets/data
