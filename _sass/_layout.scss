@@ -2,8 +2,6 @@
  * Site header
  */
 .site-header {
-    padding-top: 20px;
-    padding-bottom: 20px;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -12,6 +10,7 @@
 
 .site-title {
     font-size: 26px;
+    font-weight: 300;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
@@ -35,16 +34,16 @@
         color: $text-color;
         line-height: $base-line-height;
 
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
+        // Gaps between nav items, but not on the last one
+        &:not(:last-child) {
+            margin-right: 20px;
         }
     }
 
     @include media-query($on-palm) {
         position: absolute;
         top: 9px;
-        right: 30px;
+        right: $spacing-unit / 2;
         background-color: $background-color;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
@@ -82,6 +81,11 @@
         .page-link {
             display: block;
             padding: 5px 10px;
+
+            &:not(:last-child) {
+                margin-right: 0;
+            }
+            margin-left: 20px;
         }
     }
 }
@@ -166,14 +170,14 @@
 }
 
 .page-heading {
+    margin-top: 20px;
     font-size: 20px;
 }
 
 .post-list {
-    padding-top: 20px;
     margin-left: 0;
+    margin-top: 20px;
     list-style: none;
-
     > li {
         margin-bottom: $spacing-unit;
     }
@@ -189,10 +193,6 @@
     font-size: 24px;
 }
 
-.description {
-    padding-bottom: 20px;
-    border-bottom: 1px solid $grey-color-light;
-}
 
 
 /**
@@ -203,10 +203,9 @@
 }
 
 .post-title {
-    font-size: 32px;
+    font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
-    font-weight: 300;
 
     @include media-query($on-laptop) {
         font-size: 36px;

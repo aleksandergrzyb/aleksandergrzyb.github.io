@@ -16,35 +16,35 @@ If you've ever worked on a project that used Github and Pivotal Tracker you've p
 
 You can install Pigi as a [RubyGem](https://rubygems.org/gems/pigi):
 
-{% highlight console %}
+```shell
 $ gem install pigi
-{% endhighlight %}
+```
 
 ### Usage
 
 When you begin to work on a particular story in Pivotal Tracker firstly set ID (for example ID = 12345678) of this story by executing a command:
 
-{% highlight console %}
+```shell
 $ pigi s 12345678
-{% endhighlight %}
+```
 	
 Now every time you want to commit changes in your git repository you do it by typing:
 
-{% highlight console %}
+```shell
 $ pigi m "add awesome feature"
-{% endhighlight %}
+```
 	
 The result of this command is identical to this command:
 
-{% highlight console %}
+```shell
 $ git commit -m "add awesome feature [#12345678]"
-{% endhighlight %}
-	
+```
+
 If you want to work on another story just simply set pigi to your current story ID that you are working on:
 
-{% highlight console %}
+```shell
 $ pigi s 87654321
-{% endhighlight %}
+```
 
 ### Pigi code
 
