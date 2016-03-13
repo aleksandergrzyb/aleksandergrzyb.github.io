@@ -11,3 +11,5 @@ github_username:  aleksandergrzyb
 # Build settings
 markdown: kramdown
 exclude: ["CNAME", "Rakefile", "Gemfile", "Gemfile.lock"]
+gems:
+  - jekyll-sitemap
