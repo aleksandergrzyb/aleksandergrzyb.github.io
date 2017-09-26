@@ -1,9 +1,9 @@
 desc "Build Jekyll site and copy files"
 task :run do
-  system "jekyll serve"
+  system "bundle exec jekyll serve"
 end
 
 desc "Build Jekyll site with drafts"
 task :drafts do
-  system "jekyll serve --watch --drafts"
+  system "bunle exec jekyll serve --watch --drafts"
 end
