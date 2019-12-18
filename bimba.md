@@ -9,3 +9,5 @@ permalink: /bimba/
 </div>
 
 Regarding Bimba iOS application feedback or any other requests, please contact me directly via <a href="mailto:aleksander.grzyb@gmail.com?subject=">email</a>.
+
+<a href="{{ site.url }}/assets/bimba_privacy_policy.pdf">Bimba iOS application privacy policy.</a>
